@@ -1,0 +1,93 @@
+Screen2 As screen:
+    Fill: =RGBA(133, 19, 47, 1)
+
+    Image6_1 As image:
+        Height: =342
+        Image: ='light-pastel-pink-watercolor-background-round-circle-shape-png'
+        ImagePosition: =ImagePosition.Fill
+        Width: =431
+        X: =209
+        Y: =96
+        ZIndex: =1
+
+    Image6 As image:
+        Height: =672
+        Image: ='light-pastel-pink-watercolor-background-round-circle-shape-png'
+        Width: =640
+        ZIndex: =2
+
+    Image2 As image:
+        Height: =500
+        Image: ='logo-removebg-preview'
+        Width: =493
+        X: =74
+        Y: =80
+        ZIndex: =3
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(253, 231, 243, 1)
+        Font: =Font.'Great Vibes'
+        FontWeight: =FontWeight.Bold
+        Height: =136
+        Size: =89
+        Text: ="Welcome!"
+        Width: =560
+        X: =40
+        Y: =632
+        ZIndex: =4
+
+    Label1_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(253, 231, 243, 1)
+        Font: =Font.'Dancing Script'
+        FontWeight: =FontWeight.Bold
+        Height: =136
+        Size: =27
+        Text: ="Thanks for logging in."
+        Width: =560
+        X: =40
+        Y: =696
+        ZIndex: =5
+
+    Rectangle1 As rectangle:
+        Fill: =RGBA(253, 231, 243, 1)
+        Height: =82
+        Width: =640
+        Y: =1053
+        ZIndex: =6
+
+    PartialCircle1 As partialCircle.threequarterCircle:
+        Fill: =RGBA(133, 19, 47, 1)
+        X: =540
+        Y: =994
+        ZIndex: =7
+
+    Circle2 As circle:
+        Fill: =RGBA(253, 231, 243, 1)
+        X: =440
+        Y: =994
+        ZIndex: =8
+
+    Icon1 As icon.Cancel:
+        Color: =RGBA(253, 231, 243, 1)
+        Icon: =Icon.Cancel
+        X: =558
+        Y: =1012
+        ZIndex: =9
+
+    Icon4 As icon.Home:
+        Color: =RGBA(133, 19, 47, 1)
+        Icon: =Icon.Home
+        X: =458
+        Y: =1012
+        ZIndex: =10
+
+    Icon8 As icon.Journal:
+        Color: =RGBA(253, 231, 243, 1)
+        Icon: =Icon.Journal
+        Rotation: =45
+        X: =558
+        Y: =107
+        ZIndex: =11
+

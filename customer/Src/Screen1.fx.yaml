@@ -1,0 +1,9 @@
+Screen1 As screen:
+    Fill: =RGBA(253, 231, 243, 1)
+
+    Image1 As image:
+        Height: =1136
+        Image: =studyBuddyReal
+        Width: =640
+        ZIndex: =1
+

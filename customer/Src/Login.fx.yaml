@@ -1,0 +1,275 @@
+Login As screen:
+    Fill: =RGBA(253, 231, 243, 1)
+
+    Rectangle3 As rectangle:
+        Fill: =RGBA(220, 153, 153, 1)
+        Height: =593
+        Width: =640
+        ZIndex: =1
+
+    Image5_6 As image:
+        Height: =352
+        Image: ='light-pastel-pink-watercolor-background-round-circle-shape-png'
+        Width: =341
+        Y: =582
+        ZIndex: =2
+
+    Image5_1 As image:
+        Height: =352
+        Image: ='light-pastel-pink-watercolor-background-round-circle-shape-png'
+        Width: =341
+        X: =162
+        Y: =48
+        ZIndex: =3
+
+    Image5 As image:
+        Height: =352
+        Image: ='light-pastel-pink-watercolor-background-round-circle-shape-png'
+        ImagePosition: =ImagePosition.Fill
+        Width: =341
+        X: =299
+        ZIndex: =4
+
+    Icon5_3 As icon.ChevronLeft:
+        Color: =RGBA(118, 0, 0, 1)
+        Height: =42
+        Icon: =Icon.ChevronLeft
+        Width: =40
+        X: =12
+        Y: =26
+        ZIndex: =5
+
+    Label4 As label:
+        Height: =70
+        Size: =21
+        Text: ="Email"
+        Width: =560
+        X: =40
+        Y: =173
+        ZIndex: =6
+
+    TextInput1 As text:
+        BorderColor: =RGBA(48, 2, 2, 1)
+        Color: =RGBA(220, 153, 153, 1)
+        Default: ="Text input"
+        DisabledBorderColor: =RGBA(118, 0, 0, 1)
+        DisabledColor: =RGBA(118, 0, 0, 1)
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =243
+        ZIndex: =7
+
+    Label4_1 As label:
+        Height: =70
+        Size: =21
+        Text: ="Password"
+        Width: =560
+        X: =40
+        Y: =321
+        ZIndex: =8
+
+    TextInput1_1 As text:
+        BorderColor: =RGBA(48, 2, 2, 1)
+        Color: =RGBA(220, 153, 153, 1)
+        Default: ="Text input"
+        DisabledBorderColor: =RGBA(118, 0, 0, 1)
+        DisabledColor: =RGBA(118, 0, 0, 1)
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =380
+        ZIndex: =9
+
+    Icon6 As icon.EmojiSmile:
+        Color: =RGBA(220, 153, 153, 1)
+        Height: =40
+        Icon: =Icon.EmojiSmile
+        Width: =34
+        X: =53
+        Y: =258
+        ZIndex: =10
+
+    Icon7 As icon.Lock:
+        Color: =RGBA(220, 153, 153, 1)
+        Height: =33
+        Icon: =Icon.Lock
+        Width: =47
+        X: =46
+        Y: =398
+        ZIndex: =11
+
+    Button1 As button:
+        Fill: =RGBA(143, 40, 42, 1)
+        Font: =Font.'Segoe UI'
+        Height: =55
+        Size: =24
+        Text: ="Sign in"
+        Width: =218
+        X: =211
+        Y: =518
+        ZIndex: =12
+
+    Label4_3 As label:
+        Color: =RGBA(118, 0, 0, 1)
+        Height: =70
+        Size: =19
+        Text: ="Forgot Password?"
+        Underline: =true
+        Width: =289
+        X: =40
+        Y: =448
+        ZIndex: =13
+
+    Label4_4 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =30
+        Text: ="SIGN IN"
+        Width: =560
+        X: =40
+        Y: =103
+        ZIndex: =14
+
+    PartialCircle2 As partialCircle.threequarterCircle:
+        Fill: =RGBA(220, 153, 153, 1)
+        X: =540
+        Y: =540
+        ZIndex: =15
+
+    Circle3 As circle:
+        Fill: =RGBA(253, 231, 243, 1)
+        X: =440
+        Y: =540
+        ZIndex: =16
+
+    Label4_5 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =30
+        Text: ="SIGN UP"
+        Width: =560
+        X: =40
+        Y: =618
+        ZIndex: =17
+
+    Image5_5 As image:
+        Height: =382
+        Image: ='light-pastel-pink-watercolor-background-round-circle-shape-png'
+        ImagePosition: =ImagePosition.Fill
+        Width: =520
+        X: =120
+        Y: =754
+        ZIndex: =18
+
+    Label4_2 As label:
+        Height: =70
+        Size: =21
+        Text: ="Email"
+        Width: =560
+        X: =40
+        Y: =669
+        ZIndex: =19
+
+    TextInput1_2 As text:
+        BorderColor: =RGBA(48, 2, 2, 1)
+        Color: =RGBA(220, 153, 153, 1)
+        Default: ="Text input"
+        DisabledBorderColor: =RGBA(118, 0, 0, 1)
+        DisabledColor: =RGBA(118, 0, 0, 1)
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =739
+        ZIndex: =20
+
+    Label4_6 As label:
+        Height: =70
+        Size: =21
+        Text: ="Password"
+        Width: =560
+        X: =40
+        Y: =817
+        ZIndex: =21
+
+    TextInput1_3 As text:
+        BorderColor: =RGBA(48, 2, 2, 1)
+        Color: =RGBA(220, 153, 153, 1)
+        Default: ="Text input"
+        DisabledBorderColor: =RGBA(118, 0, 0, 1)
+        DisabledColor: =RGBA(118, 0, 0, 1)
+        Height: =70
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =876
+        ZIndex: =22
+
+    Icon6_1 As icon.EmojiSmile:
+        Color: =RGBA(220, 153, 153, 1)
+        Height: =40
+        Icon: =Icon.EmojiSmile
+        Width: =34
+        X: =53
+        Y: =754
+        ZIndex: =23
+
+    Icon7_1 As icon.Lock:
+        Color: =RGBA(220, 153, 153, 1)
+        Height: =33
+        Icon: =Icon.Lock
+        Width: =47
+        X: =46
+        Y: =894
+        ZIndex: =24
+
+    Button1_1 As button:
+        Fill: =RGBA(143, 40, 42, 1)
+        Font: =Font.'Segoe UI'
+        Height: =55
+        Size: =24
+        Text: ="Sign Up"
+        Width: =218
+        X: =211
+        Y: =1014
+        ZIndex: =25
+
+    Label4_7 As label:
+        Align: =Align.Right
+        Color: =RGBA(118, 0, 0, 1)
+        Height: =70
+        Size: =19
+        Text: ="Remember me"
+        Underline: =true
+        Width: =235
+        X: =26
+        Y: =944
+        ZIndex: =26
+
+    Icon2 As icon.ChevronUp:
+        Color: =RGBA(118, 0, 0, 1)
+        Icon: =Icon.ChevronUp
+        X: =458
+        Y: =536
+        ZIndex: =27
+
+    Icon3 As icon.ChevronDown:
+        Color: =RGBA(118, 0, 0, 1)
+        Icon: =Icon.ChevronDown
+        X: =558
+        Y: =582
+        ZIndex: =28
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(118, 0, 0, 1)
+        BorderThickness: =2
+        Fill: =RGBA(253, 231, 243, 1)
+        Height: =25
+        Width: =28
+        X: =40
+        Y: =967
+        ZIndex: =29
+
